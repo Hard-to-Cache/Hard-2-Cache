@@ -1,71 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> Hard To Cache
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Team Bios | SGX3</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      background: linear-gradient(to bottom, #ffd5ec, #ffe6f2);
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 2em;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 3em;
-    }
-    header img {
-      width: 150px;
-      border-radius: 50%;
-    }
-    h1, h2, h3 {
-      color: #d16ba5;
-    }
-    .bio {
-      background: #fff0f6;
-      padding: 2em;
-      margin-bottom: 2em;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .bio img {
-      width: 120px;
-      float: right;
-      margin-left: 1em;
-      border-radius: 12px;
-    }
-    .contact a {
-      color: #d16ba5;
-      text-decoration: none;
-    }
-    footer {
-      text-align: center;
-      padding: 1em;
-      font-size: 0.9em;
-      color: #888;
-    }
-  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hard To Cache Team Bios</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="container">
-    <header>
-      <h1>SGX3 Team Profiles</h1>
-      <p>Welcome, Enjoy Your Stay ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐</p>
-    </header>
-    <section class="bio">
-      <h2>Charli Brooks | Aviation & Emergency Management</h2>
-      <img src="![Canon-1747 (2)](https://github.com/user-attachments/assets/891bc436-d358-4663-8560-2fea96575e2a)
-" alt="Charli Brooks" />
-      <p><strong>Aviation Science Major | Emergency Management | Student Pilot</strong></p>
-      <h3>About Me</h3>
+<body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
+  <div class="container" style="max-width: 1000px; margin: auto; padding: 20px;">
+    <section style="text-align: center;">
+      <img src="Charli Brooks Headshot.jpg" alt="Charli Brooks" style="width: 200px; border-radius: 8px;">
+      <h1>Charli Brooks | Aviation & Emergency Management</h1>
+      <p>ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐</p>
+      <p>Aviation Science Major | Emergency Management | Student Pilot</p>
+      <h2>About Me</h2>
       <p>I’m currently studying Aviation Science with a minor in Emergency Management at Elizabeth City State University. With a passion for disaster response, flight operations, and global outreach, I’ve participated in FEMA training, NASA’s L'SPACE Academy, and recently studied abroad in Cannes, France. I bring hands-on leadership experience as a Resident Assistant and CERT Incident Commander, and I’m always seeking new opportunities in aviation and emergency response.</p>
       <h3>Professional Highlights</h3>
       <ul>
@@ -75,61 +23,37 @@
         <li>Study Abroad Ambassador – AIFS Abroad (Cannes, France)</li>
         <li>Participant – NASA L'SPACE Mission Concept Academy</li>
       </ul>
-      <div class="contact">
-        <p>Email: <a href="mailto:cnbrooks04@gmail.com">cnbrooks04@gmail.com</a></p>
-        <p>Phone: <a href="tel:+16785103454">(678) 510-3454</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/charli7" target="_blank">linkedin.com/in/charli7</a></p>
-      </div>
+      <p>Email: cnbrooks04@gmail.com<br>Phone: (678) 510-3454<br>LinkedIn: <a href="https://www.linkedin.com/in/charli7" target="_blank">linkedin.com/in/charli7</a></p>
     </section>
-    <section class="bio">
+    <hr>
+    <section style="text-align: center;">
+      <img src="Silas Image.jpg" alt="Silas Erving" style="width: 200px; border-radius: 8px;">
       <h2>Silas Erving</h2>
-      <img sr![IMG_6897](https://github.com/user-attachments/assets/5bafd299-3d77-4d72-8bee-ec9a49496c5e)
-c="" alt="Silas Erving" />
-      <p>Hey! My name is Silas Erving — I’m a rising junior Software Engineering major at Morehouse College from Charlotte, North Carolina. As a Leo, I see the lion as my spirit animal: confident, curious, and always ready to lead...</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/">www.linkedin.com/in/</a></p>
+      <p>Hey! My name is Silas Erving — I’m a rising junior Software Engineering major at Morehouse College from Charlotte, North Carolina. As a Leo, I see the lion as my spirit animal: confident, curious, and always ready to lead. That mindset drives me in and outside of the classroom. At Morehouse, I’ve been committed to building a strong foundation in computer science, with a growing focus on High-Performance Computing (HPC) and science gateways.</p>
+      <p>I’m passionate about pushing the boundaries of what I can do in tech. Whether it’s learning new programming languages, contributing to student leadership, or participating in summer institutes like SGX3, I’m always looking to grow. I bring a blend of technical skills — like C++, Python, and version control — with a collaborative spirit and a drive to make meaningful impact.</p>
+      <p>Long term, I aspire to be part of teams that design scalable, innovative technology that improves access, connection, and quality of life — especially in underrepresented communities.</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank">www.linkedin.com/in/</a></p>
     </section>
-    <section class="bio">
+    <hr>
+    <section style="text-align: center;">
+      <img src="ChanteRay_Headshot.jpg" alt="Chante Ray" style="width: 200px; border-radius: 8px;">
       <h2>Chante Ray</h2>
-      <img src="![ChanteRay_Headshot](https://github.com/user-attachments/assets/6c845b84-9c61-4f7f-87ae-0769eb9e6a56)
-" alt="Chante Ray" />
-      <h3>About Me</h3>
-      <p>Chante Ray is a dedicated and driven Computer Science major at Mississippi Valley State University...</p>
-      <h3>🎓 Education</h3>
-      <ul>
-        <li>B.S. in Computer Science, MVSU (Minor in Business Administration)</li>
-        <li>Associate of Arts, Mississippi Delta Community College</li>
-      </ul>
-      <h3>📈 Skills</h3>
-      <ul>
-        <li>Languages: C++, Python, Java, MySQL</li>
-        <li>Tools: Microsoft Office</li>
-        <li>Soft Skills: Communication, teamwork, presentation</li>
-      </ul>
-      <h3>💻 Experiences</h3>
-      <ul>
-        <li>Lead Navigator, Mississippi Center for Justice</li>
-        <li>Resident Assistant, Arkansas Summer Research Institute</li>
-      </ul>
-      <h3>☀️ Affiliations</h3>
-      <ul>
-        <li>Phi Theta Kappa Honor Society</li>
-        <li>Women in Science and Technology (Treasurer)</li>
-        <li>Mathematics, Computer, and Information Science Club (Treasurer)</li>
-      </ul>
+      <p>Chante Ray is a dedicated and driven Computer Science major at Mississippi Valley State University, pursuing a Bachelor of Science degree with a minor in Business Administration. She is expected to graduate in May 2026.</p>
+      <p>Chante has demonstrated a commitment to academic excellence, consistently earning recognition on the Dean’s List and as a Scholar. Her coursework spans Computer Programming, Java, Cybersecurity, and Database Management.</p>
+      <p>In addition to her technical expertise, Chante is proficient in Microsoft Office tools and excels in communication and active listening.</p>
+      <p>Her experience includes impactful roles such as Lead Navigator at the Mississippi Center for Justice and Resident Assistant at the Arkansas Summer Research Institute.</p>
+      <p>She’s also an active leader in Phi Theta Kappa, Women in Science and Technology (Treasurer), and the MCIS Club (Treasurer).</p>
     </section>
-    <section class="bio">
-      <h2>Seth ![Seth light retouch cropped](https://github.com/user-attachments/assets/fc93b641-b413-46c5-9269-870060671786)
-Mack</h2>
-      <img src="" alt="Seth Mack" />
-      <p>👋 Hi, I’m @SethMack611<br />
-         👀 I’m interested in ...<br />
-         🌱 I’m currently learning ...<br />
-         💞️ I’m looking to collaborate on ...<br />
-         📫 How to reach me ...</p>
+    <hr>
+    <section style="text-align: center;">
+      <img src="Seth light retouch cropped.jpeg" alt="Seth Mack" style="width: 200px; border-radius: 8px;">
+      <h2>Seth Mack</h2>
+      <p>👋 Hi, I’m @SethMack611<br>
+      👀 I’m interested in ...<br>
+      🌱 I’m currently learning ...<br>
+      💞️ I’m looking to collaborate on ...<br>
+      📫 How to reach me ...</p>
     </section>
-    <footer>
-      <p>© 2025 SGX3 Team. All rights reserved.</p>
-    </footer>
   </div>
 </body>
 </html>
