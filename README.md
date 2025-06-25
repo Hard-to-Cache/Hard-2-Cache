@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hard To Cache Team Bios</title>
+  Hard To Cache Team Bios
   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
