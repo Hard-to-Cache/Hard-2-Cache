@@ -9,8 +9,8 @@
 <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
   <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
   <div style="text-align: center; margin-bottom: 20px;">
-    <img src="![HardToCache (2)](https://github.com/user-attachments/assets/ac878c05-ffd6-45f1-981d-5c26147cbba5)
-" alt="HardToCache Logo" style="width: 220px;">
+    <img src="https://github.com/user-attachments/assets/ac878c05-ffd6-45f1-981d-5c26147cbba5" alt="HardToCache Logo" style="width: 220px;">
+alt="HardToCache Logo" style="width: 220px;">
   </div>
   <div class="container" style="max-width: 1000px; margin: auto; padding: 20px;">
     <section style="text-align: center;">
