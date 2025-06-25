@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> [HardToCache (1).pdf](https://github.com/user-attachments/files/20904449/HardToCache.1.pdf)
+<head> ![HardToCache (2)](https://github.com/user-attachments/assets/f727ff4b-b6c1-4f00-a7c4-bf3c0f173798)
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   Hard To Cache Team Bios
