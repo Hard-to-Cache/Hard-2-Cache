@@ -58,7 +58,7 @@ alt="HardToCache Logo" style="width: 220px;">
   I’m a Senior Software Engineering major at Morehouse College (Class of 2026), passionate about systems programming, game development, and reproducible science.<br>
   🎮 Designed and prototyped <em>Legends of Aetheris</em>, a Black-centric RPG using GameMaker<br>
   🤖 Co-developed <strong>Frostbyte</strong>, an AI-powered assistant for science gateways, and laid the groundwork for an AI coding assistant tailored to game dev<br>
-  🚀 Participated in the 2023 SGX3 Virtual Coding Institute + 2025 Hackathon<br>
+  🚀 Participated in the 2023 SGX3 Virtual Coding Institute + 2025 ADMI Hackathon<br>
   🏆 Led and mentored teams at hackathons, Boy Scouts events, and the ADMI Conference<br>
   💻 I’m fluent in C++ and Python, and love open-source: you’ll find my work on multimedia chat apps and reproducibility scorecards here.<br>
   🌐 Outside of code, I’m building a community around inclusive game development. My ultimate goal is to launch my own Black-centered RPG studio. Let’s connect!
