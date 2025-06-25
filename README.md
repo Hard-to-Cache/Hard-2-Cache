@@ -62,7 +62,8 @@
     </header>
     <section class="bio">
       <h2>Charli Brooks | Aviation & Emergency Management</h2>
-      <img src="INSERT_CHARLI_IMAGE_URL" alt="Charli Brooks" />
+      <img src="![Canon-1747 (2)](https://github.com/user-attachments/assets/891bc436-d358-4663-8560-2fea96575e2a)
+" alt="Charli Brooks" />
       <p><strong>Aviation Science Major | Emergency Management | Student Pilot</strong></p>
       <h3>About Me</h3>
       <p>I’m currently studying Aviation Science with a minor in Emergency Management at Elizabeth City State University. With a passion for disaster response, flight operations, and global outreach, I’ve participated in FEMA training, NASA’s L'SPACE Academy, and recently studied abroad in Cannes, France. I bring hands-on leadership experience as a Resident Assistant and CERT Incident Commander, and I’m always seeking new opportunities in aviation and emergency response.</p>
@@ -82,13 +83,15 @@
     </section>
     <section class="bio">
       <h2>Silas Erving</h2>
-      <img src="INSERT_SILAS_IMAGE_URL" alt="Silas Erving" />
+      <img sr![IMG_6897](https://github.com/user-attachments/assets/5bafd299-3d77-4d72-8bee-ec9a49496c5e)
+c="" alt="Silas Erving" />
       <p>Hey! My name is Silas Erving — I’m a rising junior Software Engineering major at Morehouse College from Charlotte, North Carolina. As a Leo, I see the lion as my spirit animal: confident, curious, and always ready to lead...</p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/">www.linkedin.com/in/</a></p>
     </section>
     <section class="bio">
       <h2>Chante Ray</h2>
-      <img src="INSERT_CHANTE_IMAGE_URL" alt="Chante Ray" />
+      <img src="![ChanteRay_Headshot](https://github.com/user-attachments/assets/6c845b84-9c61-4f7f-87ae-0769eb9e6a56)
+" alt="Chante Ray" />
       <h3>About Me</h3>
       <p>Chante Ray is a dedicated and driven Computer Science major at Mississippi Valley State University...</p>
       <h3>🎓 Education</h3>
@@ -115,8 +118,9 @@
       </ul>
     </section>
     <section class="bio">
-      <h2>Seth Mack</h2>
-      <img src="INSERT_SETH_IMAGE_URL" alt="Seth Mack" />
+      <h2>Seth ![Seth light retouch cropped](https://github.com/user-attachments/assets/fc93b641-b413-46c5-9269-870060671786)
+Mack</h2>
+      <img src="" alt="Seth Mack" />
       <p>👋 Hi, I’m @SethMack611<br />
          👀 I’m interested in ...<br />
          🌱 I’m currently learning ...<br />
