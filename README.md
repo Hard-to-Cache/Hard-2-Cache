@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> ![HardToCache (2)](https://github.com/user-attachments/assets/f727ff4b-b6c1-4f00-a7c4-bf3c0f173798)
-
+<head> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   Hard To Cache Team Bios
   <link rel="stylesheet" href="style.css">
 </head>
 <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
+  <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="![HardToCache (2)](https://github.com/user-attachments/assets/ac878c05-ffd6-45f1-981d-5c26147cbba5)
+" alt="HardToCache Logo" style="width: 220px;">
+  </div>
   <div class="container" style="max-width: 1000px; margin: auto; padding: 20px;">
     <section style="text-align: center;">
       <img src="Charli Brooks Headshot.jpg" alt="Charli Brooks" style="width: 200px; border-radius: 8px;">
