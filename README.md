@@ -53,15 +53,13 @@ alt="HardToCache Logo" style="width: 220px;">
     <section style="text-align: center;">
       <img src="Seth light retouch cropped.jpeg" alt="Seth Mack" style="width: 200px; border-radius: 8px;">
 <h2>Seth Austin Mack</h2>
-<p>
-  👋 Hi there! I’m Seth Austin Mack<br>
-  I’m a Senior Software Engineering major at Morehouse College (Class of 2026), passionate about systems programming, game development, and reproducible science.<br>
-  🎮 Designed and prototyped <em>Legends of Aetheris</em>, a Black-centric RPG using GameMaker<br>
-  🤖 Co-developed <strong>Frostbyte</strong>, an AI-powered assistant for science gateways, and laid the groundwork for an AI coding assistant tailored to game dev<br>
-  🚀 Participated in the 2023 SGX3 Virtual Coding Institute + 2025 ADMI Hackathon<br>
-  🏆 Led and mentored teams at hackathons, Boy Scouts events, and the ADMI Conference<br>
-  💻 I’m fluent in C++ and Python, and love open-source: you’ll find my work on multimedia chat apps and reproducibility scorecards here.<br>
-  🌐 Outside of code, I’m building a community around inclusive game development. My ultimate goal is to launch my own Black-centered RPG studio. Let’s connect!
+<p>Seth Mack is a passionate Software Engineering major at Morehouse College, expected to graduate in 2026 with a 3.1 GPA. He is pursuing a career in video game development, combining technical expertise with creative problem-solving.</p>
+<p>His technical projects include co-developing Frostbyte - an AI assistant for scientific research that won recognition at the 2025 ADMI Symposium. Seth leverages Python, Flask, and large language models to create innovative solutions, and earned 1st Place in the HackHPC@ADMI23 hackathon.</p>
+<p>Demonstrated leadership includes serving as Project Lead for HackHPC@ADMI23, STEM Manager at Teen STEM Cafe, and achieving Eagle Scout rank with Bronze Palm. He's an active member of the Order of the Arrow Honor Society and contributed over 200 community service hours.</p>
+<p>Seth complements his technical skills with volunteer work at Morton Arboretum and Summer@IMSA, where he developed STEM curricula for youth. His commitment to inclusion is shown through his Eagle Scout project building sensory equipment for special needs students.</p>
+<p>Connect with Seth: 
+  <a href="www.linkedin.com/in/seth-mack-9467a1299">LinkedIn</a> | 
+  <a href="mailto:sethamack89@gmail.com">sethamack89@gmail.com</a>
 </p>
     </section>
   </div>
