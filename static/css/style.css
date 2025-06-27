@@ -1,39 +1,131 @@
+/* style.css */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #0e0e0e;
-    color: #ffb6c1; /* light pink */
+    color: #ffb6c1;
     font-family: 'Press Start 2P', monospace;
-    padding: 40px;
+    padding: 20px;
     line-height: 1.6;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 3px solid #00ffcc;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #0e0e0e, #1a1a1a, #0e0e0e);
 }
 
 h1, h2, h3 {
-    color: #00ffcc; /* minty green */
+    color: #00ffcc;
     text-shadow: 0 0 5px #00ffcc;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 5px #00ffcc; }
+    to { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc; }
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 12px;
 }
 
 a {
-    color: #7df9ff; /* light blue */
+    color: #7df9ff;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
+/* Legend styling */
+.legend {
+    background-color: #1a1a1a;
+    border: 2px solid #00ffcc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+}
+
+.legend h3 {
+    color: #7df9ff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.metric-card {
+    background-color: #2c2c2c;
+    padding: 12px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.metric-card strong {
+    color: #7df9ff;
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* TABLE STYLES */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 40px;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 40px;
     font-size: 12px;
+    min-width: 1400px;
 }
 
 th, td {
     border: 1px solid #00ffcc;
-    padding: 10px;
+    padding: 12px;
     text-align: left;
 }
 
 th {
     background-color: #1e1e1e;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: #7df9ff;
 }
 
 tr:nth-child(even) {
@@ -42,4 +134,96 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #3a3a3a;
+}
+
+/* Score styling */
+.score-cell {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.score-0 { background-color: #ff4d4d; color: #000; }
+.score-1 { background-color: #ff9999; color: #000; }
+.score-2 { background-color: #ffcc99; color: #000; }
+.score-3 { background-color: #ffff99; color: #000; }
+.score-4 { background-color: #ccff99; color: #000; }
+.score-5 { background-color: #66ff66; color: #000; }
+
+.score-avg {
+    font-weight: bold;
+    background-color: #4d4dff;
+    color: #fff !important;
+    text-align: center;
+}
+
+.comments {
+    font-size: 10px;
+    max-width: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 2px solid #00ffcc;
+    font-size: 10px;
+    color: #7df9ff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    .legend {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 16px;
+    }
+    
+    .legend-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Additional enhancements */
+.table-container::-webkit-scrollbar {
+    height: 8px;
+    background-color: #1a1a1a;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #00ffcc;
+    border-radius: 4px;
+}
+
+tr {
+    transition: background-color 0.3s ease;
+}
+
+td a[href*="github"]::before {
+    content: "🖥️ ";
+}
+
+td a[href*="zenodo"]::before {
+    content: "📊 ";
+}
+
+td a[href*="bit.ly"]::before {
+    content: "🔗 ";
 }
