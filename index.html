@@ -1,66 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  Hard To Cache Team Bios
-  <link rel="stylesheet" href="style.css">
+  <title>Hard To Cache Team Bios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #ffb6c1; /* light pink */
+      font-family: 'Press Start 2P', monospace;
+      padding: 20px;
+      line-height: 1.6;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2, h3 {
+      color: #00ffcc; /* minty green */
+      text-shadow: 0 0 5px #00ffcc;
+    }
+
+    h1 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 16px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 14px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+
+    a {
+      color: #7df9ff; /* light blue */
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-shadow: 0 0 5px #7df9ff;
+    }
+
+    .logo-container {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 2px solid #00ffcc;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 220px;
+      height: auto;
+      filter: drop-shadow(0 0 5px #00ffcc);
+    }
+
+    .bio {
+      padding: 25px;
+      margin-bottom: 40px;
+      background: rgba(30, 30, 30, 0.8);
+      border: 1px solid #00ffcc;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 2px solid #00ffcc;
+      box-shadow: 0 0 8px rgba(0, 255, 204, 0.5);
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    .subtitle {
+      color: #7df9ff;
+      display: block;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    .emoji-divider {
+      text-align: center;
+      font-size: 18px;
+      margin: 15px 0;
+      color: #ffb6c1;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 12px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+      font-size: 12px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    li::before {
+      content: ">";
+      color: #00ffcc;
+      position: absolute;
+      left: 0;
+    }
+
+    .contact-info {
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px dashed #00ffcc;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 10px;
+      border: 1px solid #00ffcc;
+      border-radius: 4px;
+    }
+
+    .social-link:hover {
+      background: rgba(0, 255, 204, 0.1);
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #00ffcc, transparent);
+      margin: 40px 0;
+    }
+
+    /* Terminal cursor effect */
+    .terminal-cursor {
+      display: inline-block;
+      width: 8px;
+      height: 16px;
+      background: #00ffcc;
+      margin-left: 4px;
+      animation: blink 1s infinite;
+      vertical-align: middle;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
 </head>
-<body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
-  <body style="background: linear-gradient(to bottom right, #dce9f5, #fef5fa); font-family: Arial, sans-serif;">
-  <div style="text-align: center; margin-bottom: 20px;">
-    <img src="https://github.com/user-attachments/assets/ac878c05-ffd6-45f1-981d-5c26147cbba5"
- alt="HardToCache Logo" style="width: 220px;">
+<body>
+  <div class="logo-container">
+    <img src="https://github.com/user-attachments/assets/ac878c05-ffd6-45f1-981d-5c26147cbba5" 
+         alt="HardToCache Logo" class="logo">
   </div>
-  <div class="container" style="max-width: 1000px; margin: auto; padding: 20px;">
-    <section style="text-align: center;">
-      <img src="Charli Brooks Headshot.jpg" alt="Charli Brooks" style="width: 200px; border-radius: 8px;">
-      <h1>Charli Brooks | Aviation & Emergency Management</h1>
-      <p>ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐</p>
-      <p>Aviation Science Major | Emergency Management | Student Pilot</p>
-      <h2>About Me</h2>
-      <p>I’m currently studying Aviation Science with a minor in Emergency Management at Elizabeth City State University. With a passion for disaster response, flight operations, and global outreach, I’ve participated in FEMA training, NASA’s L'SPACE Academy, and recently studied abroad in Cannes, France. I bring hands-on leadership experience as a Resident Assistant and CERT Incident Commander, and I’m always seeking new opportunities in aviation and emergency response.</p>
-      <h3>Professional Highlights</h3>
+  
+  <h1>HARD TO CACHE TEAM BIOS<span class="terminal-cursor"></span></h1>
+  
+  <div class="container">
+    <!-- Charli Brooks Section -->
+    <section class="bio">
+      <img src="Charli Brooks Headshot.jpg" alt="Charli Brooks" class="profile-img">
+      <h2>CHARLI BROOKS</h2>
+      <span class="subtitle">AVIATION & EMERGENCY MANAGEMENT</span>
+      <div class="emoji-divider">ִֶָ𓂃 ࣪˖ ִֶָ🐇་༘࿐</div>
+      <p>AVIATION SCIENCE MAJOR | EMERGENCY MANAGEMENT | STUDENT PILOT</p>
+      
+      <h3>ABOUT ME</h3>
+      <p>I'M CURRENTLY STUDYING AVIATION SCIENCE WITH A MINOR IN EMERGENCY MANAGEMENT AT ELIZABETH CITY STATE UNIVERSITY. WITH A PASSION FOR DISASTER RESPONSE, FLIGHT OPERATIONS, AND GLOBAL OUTREACH, I'VE PARTICIPATED IN FEMA TRAINING, NASA'S L'SPACE ACADEMY, AND RECENTLY STUDIED ABROAD IN CANNES, FRANCE. I BRING HANDS-ON LEADERSHIP EXPERIENCE AS A RESIDENT ASSISTANT AND CERT INCIDENT COMMANDER, AND I'M ALWAYS SEEKING NEW OPPORTUNITIES IN AVIATION AND EMERGENCY RESPONSE.</p>
+      
+      <h3>PROFESSIONAL HIGHLIGHTS</h3>
       <ul>
-        <li>Resident Assistant – ECSU Housing and Residence Life</li>
-        <li>CERT Incident Commander – FEMA & University of Utah Trained</li>
-        <li>Operations Manager – ECSU Drone Expo & Aviation Summit</li>
-        <li>Study Abroad Ambassador – AIFS Abroad (Cannes, France)</li>
-        <li>Participant – NASA L'SPACE Mission Concept Academy</li>
+        <li>RESIDENT ASSISTANT - ECSU HOUSING AND RESIDENCE LIFE</li>
+        <li>CERT INCIDENT COMMANDER - FEMA & UNIVERSITY OF UTAH TRAINED</li>
+        <li>OPERATIONS MANAGER - ECSU DRONE EXPO & AVIATION SUMMIT</li>
+        <li>STUDY ABROAD AMBASSADOR - AIFS ABROAD (CANNES, FRANCE)</li>
+        <li>PARTICIPANT - NASA L'SPACE MISSION CONCEPT ACADEMY</li>
       </ul>
-      <p>Email: cnbrooks04@gmail.com<br>Phone: (678) 510-3454<br>LinkedIn: <a href="https://www.linkedin.com/in/charli7" target="_blank">linkedin.com/in/charli7</a></p>
+      
+      <div class="contact-info">
+        <p>EMAIL: <a href="mailto:cnbrooks04@gmail.com">CNBROOKS04@GMAIL.COM</a></p>
+        <p>PHONE: <a href="tel:6785103454">(678) 510-3454</a></p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/charli7/" target="_blank" class="social-link">
+            <span>LINKEDIN</span>
+          </a>
+          <a href="https://github.com/Chazend" target="_blank" class="social-link">
+            <span>GITHUB</span>
+          </a>
+        </div>
+      </div>
     </section>
+    
     <hr>
-    <section style="text-align: center;">
-      <img src="Silas Image.jpg" alt="Silas Erving" style="width: 200px; border-radius: 8px;">
-      <h2>Silas Erving</h2>
-      <p>Hey! My name is Silas Erving — I’m a rising junior Software Engineering major at Morehouse College from Charlotte, North Carolina. As a Leo, I see the lion as my spirit animal: confident, curious, and always ready to lead. That mindset drives me in and outside of the classroom. At Morehouse, I’ve been committed to building a strong foundation in computer science, with a growing focus on High-Performance Computing (HPC) and science gateways.</p>
-      <p>I’m passionate about pushing the boundaries of what I can do in tech. Whether it’s learning new programming languages, contributing to student leadership, or participating in summer institutes like SGX3, I’m always looking to grow. I bring a blend of technical skills — like C++, Python, and version control — with a collaborative spirit and a drive to make meaningful impact.</p>
-      <p>Long term, I aspire to be part of teams that design scalable, innovative technology that improves access, connection, and quality of life — especially in underrepresented communities.</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank">www.linkedin.com/in/</a></p>
+    
+    <!-- Silas Erving Section -->
+    <section class="bio">
+      <img src="Silas Image.jpg" alt="Silas Erving" class="profile-img">
+      <h2>SILAS ERVING</h2>
+      <p>HEY! MY NAME IS SILAS ERVING - I'M A RISING JUNIOR SOFTWARE ENGINEERING MAJOR AT MOREHOUSE COLLEGE FROM CHARLOTTE, NORTH CAROLINA. AS A LEO, I SEE THE LION AS MY SPIRIT ANIMAL: CONFIDENT, CURIOUS, AND ALWAYS READY TO LEAD. THAT MINDSET DRIVES ME IN AND OUTSIDE OF THE CLASSROOM. AT MOREHOUSE, I'VE BEEN COMMITTED TO BUILDING A STRONG FOUNDATION IN COMPUTER SCIENCE, WITH A GROWING FOCUS ON HIGH-PERFORMANCE COMPUTING (HPC) AND SCIENCE GATEWAYS.</p>
+      <p>I'M PASSIONATE ABOUT PUSHING THE BOUNDARIES OF WHAT I CAN DO IN TECH. WHETHER IT'S LEARNING NEW PROGRAMMING LANGUAGES, CONTRIBUTING TO STUDENT LEADERSHIP, OR PARTICIPATING IN SUMMER INSTITUTES LIKE SGX3, I'M ALWAYS LOOKING TO GROW. I BRING A BLEND OF TECHNICAL SKILLS - LIKE C++, PYTHON, AND VERSION CONTROL - WITH A COLLABORATIVE SPIRIT AND A DRIVE TO MAKE MEANINGFUL IMPACT.</p>
+      <p>LONG TERM, I ASPIRE TO BE PART OF TEAMS THAT DESIGN SCALABLE, INNOVATIVE TECHNOLOGY THAT IMPROVES ACCESS, CONNECTION, AND QUALITY OF LIFE - ESPECIALLY IN UNDERREPRESENTED COMMUNITIES.</p>
+      <div class="contact-info">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/silas-erving-38195b327/" target="_blank" class="social-link">
+            <span>LINKEDIN</span>
+          </a>
+          <a href="https://github.com/silas-erving" target="_blank" class="social-link">
+            <span>GITHUB</span>
+          </a>
+        </div>
+      </div>
     </section>
+    
     <hr>
-    <section style="text-align: center;">
-      <img src="ChanteRay_Headshot.jpg" alt="Chante Ray" style="width: 200px; border-radius: 8px;">
-      <h2>Chante Ray</h2>
-      <p>Chante Ray is a dedicated and driven Computer Science major at Mississippi Valley State University, pursuing a Bachelor of Science degree with a minor in Business Administration. She is expected to graduate in May 2026.</p>
-      <p>Chante has demonstrated a commitment to academic excellence, consistently earning recognition on the Dean’s List and as a Scholar. Her coursework spans Computer Programming, Java, Cybersecurity, and Database Management.</p>
-      <p>In addition to her technical expertise, Chante is proficient in Microsoft Office tools and excels in communication and active listening.</p>
-      <p>Her experience includes impactful roles such as Lead Navigator at the Mississippi Center for Justice and Resident Assistant at the Arkansas Summer Research Institute.</p>
-      <p>She’s also an active leader in Phi Theta Kappa, Women in Science and Technology (Treasurer), and the MCIS Club (Treasurer).</p>
+    
+    <!-- Chante Ray Section -->
+    <section class="bio">
+      <img src="ChanteRay_Headshot.jpg" alt="Chante Ray" class="profile-img">
+      <h2>CHANTE RAY</h2>
+      <p>CHANTE RAY IS A DEDICATED AND DRIVEN COMPUTER SCIENCE MAJOR AT MISSISSIPPI VALLEY STATE UNIVERSITY, PURSUING A BACHELOR OF SCIENCE DEGREE WITH A MINOR IN BUSINESS ADMINISTRATION. SHE IS EXPECTED TO GRADUATE IN MAY 2026.</p>
+      <p>CHANTE HAS DEMONSTRATED A COMMITMENT TO ACADEMIC EXCELLENCE, CONSISTENTLY EARNING RECOGNITION ON THE DEAN'S LIST AND AS A SCHOLAR. HER COURSEWORK SPANS COMPUTER PROGRAMMING, JAVA, CYBERSECURITY, AND DATABASE MANAGEMENT.</p>
+      <p>IN ADDITION TO HER TECHNICAL EXPERTISE, CHANTE IS PROFICIENT IN MICROSOFT OFFICE TOOLS AND EXCELS IN COMMUNICATION AND ACTIVE LISTENING.</p>
+      <p>HER EXPERIENCE INCLUDES IMPACTFUL ROLES SUCH AS LEAD NAVIGATOR AT THE MISSISSIPPI CENTER FOR JUSTICE AND RESIDENT ASSISTANT AT THE ARKANSAS SUMMER RESEARCH INSTITUTE.</p>
+      <p>SHE'S ALSO AN ACTIVE LEADER IN PHI THETA KAPPA, WOMEN IN SCIENCE AND TECHNOLOGY (TREASURER), AND THE MCIS CLUB (TREASURER).</p>
+      <div class="contact-info">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/chante-ray-59a68b279/" target="_blank" class="social-link">
+            <span>LINKEDIN</span>
+          </a>
+          <a href="https://github.com/CRay-24Code" target="_blank" class="social-link">
+            <span>GITHUB</span>
+          </a>
+        </div>
+      </div>
     </section>
+    
     <hr>
-    <section style="text-align: center;">
-      <img src="Seth light retouch cropped.jpeg" alt="Seth Mack" style="width: 200px; border-radius: 8px;">
-      <h2>Seth Mack</h2>
-<p>Seth Mack is a passionate Software Engineering major at Morehouse College, expected to graduate in 2026 with a 3.1 GPA. He is pursuing a career in video game development, combining technical expertise with creative problem-solving.</p>
-<p>His technical projects include co-developing Frostbyte - an AI assistant for scientific research that won recognition at the 2025 ADMI Symposium. Seth leverages Python, Flask, and large language models to create innovative solutions, and earned 1st Place in the HackHPC@ADMI23 hackathon.</p>
-<p>Demonstrated leadership includes serving as Project Lead for HackHPC@ADMI23, STEM Manager at Teen STEM Cafe, and achieving Eagle Scout rank with Bronze Palm. He's an active member of the Order of the Arrow Honor Society and contributed over 200 community service hours.</p>
-<p>Seth complements his technical skills with volunteer work at Morton Arboretum and Summer@IMSA, where he developed STEM curricula for youth. His commitment to inclusion is shown through his Eagle Scout project building sensory equipment for special needs students.</p>
-<p>Connect with Seth: 
-  <a href="www.linkedin.com/in/seth-mack-9467a1299">LinkedIn</a> | 
-  <a href="mailto:sethamack89@gmail.com">sethamack89@gmail.com</a>
-</p>
+    
+    <!-- Seth Mack Section (no changes) -->
+    <section class="bio">
+      <img src="Seth light retouch cropped.jpeg" alt="Seth Mack" class="profile-img">
+      <h2>SETH MACK</h2>
+      <p>SETH MACK IS A PASSIONATE SOFTWARE ENGINEERING MAJOR AT MOREHOUSE COLLEGE, EXPECTED TO GRADUATE IN 2026 WITH A 3.1 GPA. HE IS PURSUING A CAREER IN VIDEO GAME DEVELOPMENT, COMBINING TECHNICAL EXPERTISE WITH CREATIVE PROBLEM-SOLVING.</p>
+      <p>HIS TECHNICAL PROJECTS INCLUDE CO-DEVELOPING FROSTBYTE - AN AI ASSISTANT FOR SCIENTIFIC RESEARCH THAT WON RECOGNITION AT THE 2025 ADMI SYMPOSIUM. SETH LEVERAGES PYTHON, FLASK, AND LARGE LANGUAGE MODELS TO CREATE INNOVATIVE SOLUTIONS, AND EARNED 1ST PLACE IN THE HACKHPC@ADMI23 HACKATHON.</p>
+      <p>DEMONSTRATED LEADERSHIP INCLUDES SERVING AS PROJECT LEAD FOR HACKHPC@ADMI23, STEM MANAGER AT TEEN STEM CAFE, AND ACHIEVING EAGLE SCOUT RANK WITH BRONZE PALM. HE'S AN ACTIVE MEMBER OF THE ORDER OF THE ARROW HONOR SOCIETY AND CONTRIBUTED OVER 200 COMMUNITY SERVICE HOURS.</p>
+      <p>SETH COMPLEMENTS HIS TECHNICAL SKILLS WITH VOLUNTEER WORK AT MORTON ARBORETUM AND SUMMER@IMSA, WHERE HE DEVELOPED STEM CURRICULA FOR YOUTH. HIS COMMITMENT TO INCLUSION IS SHOWN THROUGH HIS EAGLE SCOUT PROJECT BUILDING SENSORY EQUIPMENT FOR SPECIAL NEEDS STUDENTS.</p>
+      <div class="contact-info">
+        <p>CONNECT WITH SETH:</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/seth-mack-9467a1299" target="_blank" class="social-link">
+            <span>LINKEDIN</span>
+          </a>
+          <a href="mailto:sethamack89@gmail.com" class="social-link">
+            <span>EMAIL</span>
+          </a>
+        </div>
+      </div>
     </section>
   </div>
 </body>
